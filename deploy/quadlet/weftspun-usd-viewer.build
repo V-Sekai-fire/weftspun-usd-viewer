@@ -1,14 +1,15 @@
 # SPDX-License-Identifier: MIT
 # Copyright (c) 2026 K. S. Ernest (iFire) Lee
 #
-# Builds usd_viewer_app from its own Dockerfile, at
-# /opt/weftspun/src/apps/usd_viewer_app, its own deploy unit apart
-# from weftspun_studio's. RFD 0076 gives the app; the same RFD's
-# later apps/ move gives this path.
+# Builds usd_viewer_app from this repo's own Dockerfile, its own
+# deploy unit apart from weftspun_studio's. RFD 0076 gives the app;
+# RFD 0120 split it into its own repo, weftspun/weftspun-usd-viewer,
+# synced to /opt/weftspun/weftspun-usd-viewer by
+# weftspun-studio's own scripts/deploy-weftspun-quadlet.sh.
 
 [Build]
 ImageTag=localhost/weftspun-usd-viewer:latest
-File=/opt/weftspun/src/apps/usd_viewer_app/Dockerfile
+File=/opt/weftspun/weftspun-usd-viewer/Dockerfile
 SetWorkingDirectory=file
 # See weftspun-crdb.build: rootful Podman's bridge network cannot
 # reach the internet on this host, needed here for `npm ci`.
