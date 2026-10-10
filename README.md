@@ -16,4 +16,4 @@ npm start
 
 ## Licence
 
-The source files carry MIT SPDX headers; the repository has no licence file. The viewer comes from the MIT-licensed `usd-viewer` package. The WebAssembly build in `public/wasm/` is a build of the OpenUSD fork that `public/wasm/README.md` names, and carries OpenUSD's licence rather than MIT.
+MIT. See [LICENSE](LICENSE).
