@@ -3,8 +3,7 @@
 #
 # usd_viewer_app, its own deployed container, apart from
 # weftspun_studio's. RFD 0076. weftspun.container's GallerySource
-# adapter reaches this one by ContainerName over weftspun.network,
-# the same way it already reaches weftspun-crdb.
+# adapter reaches this one by ContainerName over weftspun.network.
 
 [Unit]
 Description=usd_viewer_app (RFD 0073 gallery)
