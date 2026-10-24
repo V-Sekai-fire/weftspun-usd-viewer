@@ -3,7 +3,7 @@
 #
 # usd_viewer_app, as its own Fly.io app, apart from weftspun_studio's
 # own — the same separation character_taxonomy's fly.toml already
-# has. RFD 0076. weftspun_studio reaches it over Fly's private
+# has. RFD66606-0076. weftspun_studio reaches it over Fly's private
 # network at http://weftspun-usd-viewer.internal:8090 (GALLERY_URL).
 
 app = "weftspun-usd-viewer"

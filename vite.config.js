@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 // This app is always served under a /gallery/ prefix: by
-// server.js's own mount (RFD 0076), and, through it, by
+// server.js's own mount (RFD66606-0076), and, through it, by
 // weftspun_studio's GallerySource proxy. Vite's default base ("/")
 // makes the bundled entry script reference "/assets/index-*.js",
 // root-absolute, which 404s once actually deployed under a prefix.

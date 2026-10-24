@@ -3,7 +3,7 @@
 //
 // The whole runtime this app needs: a static file server for
 // dist/, at the same /gallery/* paths weftspun_studio's own
-// GallerySource adapter (RFD 0076) forwards unchanged. No
+// GallerySource adapter (RFD66606-0076) forwards unchanged. No
 // framework, no dependency; a Vite-built SPA is a directory of
 // files and a mime type, nothing more.
 //

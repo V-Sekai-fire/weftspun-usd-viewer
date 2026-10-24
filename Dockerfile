@@ -3,7 +3,7 @@
 #
 # usd_viewer_app, its own deployed app, apart from weftspun_studio's
 # own images, the same separation character_taxonomy/ already has
-# (its own Dockerfile, its own Fly app). RFD 0076.
+# (its own Dockerfile, its own Fly app). RFD66606-0076.
 #
 # Two stages: build the Vite/usd-viewer bundle, then run it behind
 # server.js, a small dependency-free static server. Neither stage
